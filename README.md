@@ -1,4 +1,4 @@
-* All teoric content:
+* All theoretical content:
 
 https://github.com/Evalle/DCA/blob/master/README.md
 
@@ -46,7 +46,9 @@ https://github.com/Evalle/DCA/blob/master/README.md
 
 ```$ docker service rm helloworld```
 
-```test.yml
+* Content - test.yml
+
+```
 version: '3'
 
 services:
@@ -90,8 +92,3 @@ services:
 * Scale two services in the same command 
 
 ```$ docker service scale mystack_php-fpm=5 helloworld=5```
-
-
-* How docker services works:
-
-https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/
