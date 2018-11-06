@@ -1,6 +1,8 @@
-* All theoretical content:
+# DCA Pratical Guide:
 
-https://github.com/Evalle/DCA/blob/master/README.md
+## All teoric content from -> https://github.com/Evalle/DCA/blob/master/README.md
+
+## Orchestration
 
 * Init a swarm cluster
 
@@ -46,7 +48,7 @@ https://github.com/Evalle/DCA/blob/master/README.md
 
 ```$ docker service rm helloworld```
 
-* Content - test.yml
+* Content - nginx-phpfpm.yml
 
 ```
 version: '3'
@@ -63,7 +65,7 @@ services:
 ```
 * Deploy a stack
 
-```$ docker stack deploy --compose-file test.yml mystack```
+```$ docker stack deploy --compose-file nginx-phpfpm.yml mystack```
 
 * List services running in stack
 
