@@ -6,11 +6,11 @@
 
 * Init a swarm cluster
 
-```$ docker swarm init --advertise-addr 192.168.0.18```
+```$ docker swarm init --advertise-addr $(hostname -i)```
 
 * Init a swarm cluster with autolock
 
-```$ docker swarm init --autolock --advertise-addr 192.168.0.18```
+```$ docker swarm init --autolock --advertise-addr $(hostname -i)```
 
 * Get a token for manager nodes
 
